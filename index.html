@@ -3,14 +3,147 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="assets/jquery.bxslider/jquery.bxslider.css">
+    <script src="assets/jquery.min.js"></script>
+    <script src="assets/jquery.bxslider.min.js"></script>
+    <script src="js/init.js"></script>
 </head>
 <body>
-    <div class="wrap">
-        <div class="header"></div>
-        <div class="body">
-            <h1>임우림의 홈페이지</h1>
+    <div class="all_wrap">
+        <div class="header">
+            <h1 class="logo_wrap">
+                <a href="#" class="logo t_i">로고</a>
+                <a href="#" class="logo_txt t_i">메모</a>
+            </h1>
+            <div class="login_wrap">
+                <a href="" class="login">
+                    <span class="login_txt">로그인</span>
+                </a>
+                <div class="btn_wrap">
+                    <a href="" class="btn t_i">버튼</a>
+                </div>
+            </div>
+            <div class="gnb_wrap">
+                <ul class="gnb">
+                    <li>
+                        <a href="#" class="list" title="네이버 me">네이버me</a>
+                    </li>
+                    <li>
+                       <a href="#" class="list" title="메일">메일</a>
+                    </li>
+                    <li>
+                        <a href="#" class="list" title="켈린더">켈린더</a>
+                    </li>
+                    <li>
+                        <a href="#" class="list" title="메모">메모</a>
+                    </li>
+                    <li>
+                        <a href="#" class="list" title="주소록">주소록</a>
+                    </li>
+                    <li>
+                        <a href="#" class="list" title="네이버 클라우드">네이버 클라우드</a>
+                    </li>
+                    <li>
+                        <a href="#" class="list" title="오피스">오피스</a>
+                    </li>
+                    <li>
+                     <a href="#" class="list" title="가계부">가계부</a>
+                    </li>
+                </ul>
+            </div>
         </div>
+        <!--e:header-->
+        <div class="body">
+            <div class="container">
+                <div class="contents_L_wrap">
+                    <div class="title_top">
+                        <h2 class="con_title t_i">네이버메모</h2>
+                    </div>
+                    <div class="section_wrap">
+                        <div class="section">
+                            <ul class="bxslider">
+                                <li><img src="images/login_cont_banner1_160608.jpg" alt="내손에서 pc까지"></li>
+                                <li><img src="images/login_cont_banner2_160608.jpg" alt="똑똑이 메모관리"></li>
+                                <li><img src="images/login_cont_banner3_160608.jpg" alt="꼭꼭잠그고,빠르게확인하기"></li>
+                                <li><img src="images/login_cont_banner4_160608.jpg" alt="스트랩하고, 모아보고"></li>
+                                <li><img src="images/login_cont_banner5_160608.jpg" alt="내맘데로 바꾸는 스킨설정"></li>
+                            </ul>
+                        </div>
+                        <div class="line"></div>
+                    </div>
+                    <div class="down_co_wrap">
+                        <ul class="down_contents">
+                            <li class="down_list"><a href="#" class="down_l_img t_i">모바일앱 다운로드</a></li>
+                            <li class="down_list"><a href="#" class="down_l_img t_i">모바일웹 서비스 체험하기</a></li>
+                            <li class="down_list"><a href="#" class="down_l_img t_i">메모에 기록하기</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!--e:contents_L_wrap-->
+                <div class="contents_R_wrap">
+                    <div class="join_wrap">
+                        <p class="txt">기록이 필요할 땐 언제나, 네이버 메모</p>
+                        <div class="join">
+                           <div class="j_i">
+                                <a href="#" class="join_img t_i">naver로그인</a>
+                            </div>
+                        </div>
+                        <ul class="join_L_wrap">
+                            <a href="#" class="join_list">아이디 찾기</a>
+                            <a class="join_list">&nbsp;|&nbsp;</a>
+                            <a href="#" class="join_list"> 비밀번호 찾기</a>
+                            <a href="#" class="join_list join_list-last">회원가입</a>
+                        </ul>
+                    </div>
+                    <!--e:join_wrap-->
+                    <div class="notice_wrap">
+                        <ul class="notice">
+                            <li>·<a href="#">[안내] 1.x 버전 앱 서비스 종료(17/7/5)...</a></li>
+                            <li>·<a href="#">[개선] 네이버 메모앱 3.0 버전 오픈</a></li>
+                            <li>·<a href="#">[안내] 모바일앱 iOS 최소 지원버전 변경</a></li>
+                        </ul>
+                    </div>
+                    <!--e:notice_wrap-->
+                    <div class="n_comment_wrap">
+                        <div class="title_comment_wrap">
+                            <h3 class="title_comment t_i">네이버 메모</h3>
+                        </div>
+                        <ul class="comment">
+                            <li class="comment_list">
+                                <a href="#">
+                                    <span class="ic">icon</span>"폰에서도, PC에서도 네이버 메모만 있다면 언제나 기록할 수 있어요."
+                                </a>
+                            </li>
+                            <li class="comment_list"><a href="#"><span class="ic">icon</span>"매일 일기를 쓰고 암호로 잠글 수 있으니까 비밀 다이어리같은 느낌이에요."</a></li>
+                            <li class="comment_list"><a href="#"><span class="ic">icon</span>"직장인이라면 필수! 일하면서 PC에서 쓰고 이동할 땐 폰으로 찾아보고!"</a></li>
+                            <li class="comment_list"><a href="#"><span class="ic">icon</span>"예쁜 옷 사진 첨부하고 쇼핑몰 이름도 같이 메모하니 나중에 찾기 편해요."</a></li>
+                            <li class="comment_list"><a href="#"><span class="ic">icon</span>"넓은 PC 화면에서 메모를 한 눈에 펼쳐 놓고 시원하게 볼 수 있어 좋아요."</a></li>
+                            <li class="comment_list"><a href="#"><span class="ic">icon</span>"등굣길에 본 재미있는 뉴스,"보내기 메모" 버튼만 꾸욱 누르면 바로 스크랩!"</a></li>
+                            <li class="comment_list"><a href="#"><span class="ic">icon</span>"직장인이라면 필수! 일하면서 PC에서 쓰고 이동할 땐 폰으로 찾아보고!"</a></li>
+                            <li class="comment_list"><a href="#"><span class="ic">icon</span>"예쁜 옷 사진 첨부하고 쇼핑몰 이름도 같이 메모하니 나중에 찾기 편해요."</a></li>
+                        </ul>
+                    </div>
+                    <!--e:n_comment_wrap-->
+                    <div class="smart_wrap">
+                        <a href="#" class="smart t_i">스마트다이어리</a>
+                    </div>
+                    <!--e:smart-->
+                    <div class="memo_wrap">
+                        <a href="#" class="memo t_i">네이버메모</a>
+                    </div>
+                    <!--e:memo-->
+                </div>
+                <!--e:contents_R_wrap-->
+            </div>
+            <!--e:container-->
+        </div>
+        <!--e:body-->
+        <div class="footer">
+            <address>Copyright ⓒ <strong>NAVER Corp</strong>. All Rights Reserved.</address>
+        </div>
+        <!--e:footer-->
     </div>
+    <!--e:all_wrap-->
 </body>
 </html>
